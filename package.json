@@ -1,18 +1,18 @@
 {
-  "name": "gladys-lifx-plus",
+  "name": "gladys-upnp",
   "version": "0.1.0",
-  "description": "LifxPlus module for Gladys",
+  "description": "Upnp module for Gladys",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "gladys",
-    "lifx",
+    "upnp",
     "module"
   ],
   "author": "Guillaume Delré",
   "dependencies": {
-    "request-promise": "4.2.1"
+    "node-upnp-client": "0.0.2"
   }
 }
