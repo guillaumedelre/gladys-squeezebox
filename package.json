@@ -1,18 +1,21 @@
 {
-  "name": "gladys-upnp",
+  "name": "gladys-squeezebox",
   "version": "0.1.0",
-  "description": "Upnp module for Gladys",
+  "description": "Squeezebox module for Gladys",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "gladys",
-    "upnp",
+    "squeezebox",
+    "Logitech Media Server",
     "module"
   ],
   "author": "Guillaume Delré",
   "dependencies": {
-    "node-upnp-client": "0.0.2"
+    "squeezenode": "0.1.0",
+    "player": "^0.6.1",
+    "recursive-readdir": "^2.2.1"
   }
 }
